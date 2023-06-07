@@ -18,6 +18,15 @@ for (int write = 0; write < Bubblesort.Length; write++)
     
 }
 for (int i = 0; i < Bubblesort.Length; i++)
-    Console.Write(Bubblesort[i] + " ");
+{
+    Console.WriteLine(Bubblesort[i] + " ");
+
+ string ausgabe = new String('■', Bubblesort[i]);
+ Console.WriteLine(ausgabe);
+
+}
+
+
+
 
 
